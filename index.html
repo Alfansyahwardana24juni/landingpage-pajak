@@ -20,8 +20,42 @@
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <style>
+        /* Critical CSS for Hero Section */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #F9FAFB;
+        }
+
+        .hero-bg {
+            background-color: #111d35;
+            min-height: 80vh;
+        }
+
         * {
             font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        /* Disable heavy or invisible animations on mobile to save CPU/GPU */
+        @media (max-width: 768px) {
+
+            .animate-blob,
+            .float-rotate,
+            .float-diagonal,
+            .float-animation,
+            .scale-pulse,
+            .floating-element,
+            .animate-pulse {
+                animation: none !important;
+                display: none !important;
+            }
+
+            .scroll-reveal {
+                opacity: 1 !important;
+                transform: none !important;
+                transition: none !important;
+            }
         }
 
         /* Color Variables */
