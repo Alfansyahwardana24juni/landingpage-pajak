@@ -8,15 +8,18 @@
     <link rel="icon" href="img/logo ALI.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap">
     <link rel="preload" as="image" href="img/hero.jpg" fetchpriority="high">
+    <link rel="preload" as="image" href="img/Logo Ali putih Panjang.png" fetchpriority="high">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         media="print" onload="this.media='all'">
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap');
-
         * {
             font-family: 'Plus Jakarta Sans', sans-serif;
         }
@@ -1298,7 +1301,7 @@
                             class="relative p-1 bg-gradient-to-tr from-white/20 via-white/50 to-white/20 rounded-3xl overflow-hidden shadow-2xl">
                             <img src="img/hero.jpg" alt="Modern Tax Service Visualization"
                                 class="w-full h-auto object-cover rounded-[1.4rem] transform transition duration-700 group-hover:scale-105"
-                                loading="eager" fetchpriority="high" width="800" height="600">
+                                loading="eager" fetchpriority="high" width="800" height="600" decoding="sync">
                         </div>
 
                         <!-- Floating Glass Cards (Repositioned to avoid overlap) -->
@@ -1480,7 +1483,7 @@
                     <div class="aspect-[3/4] overflow-hidden">
                         <img src="img/pusing.jpg" alt="Pusing Hitung Pajak"
                             class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
-                            loading="lazy" width="400" height="533">
+                            loading="lazy" width="400" height="533" decoding="async">
                     </div>
                     <div
                         class="p-8 pb-10 text-center relative z-10 bg-gradient-to-t from-white via-white/95 to-white/80">
@@ -1501,7 +1504,7 @@
                     <div class="aspect-[3/4] overflow-hidden">
                         <img src="img/kaget.jpg" alt="Kaget Aturan Pajak"
                             class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
-                            loading="lazy" width="400" height="533">
+                            loading="lazy" width="400" height="533" decoding="async">
                     </div>
                     <div
                         class="p-8 pb-10 text-center relative z-10 bg-gradient-to-t from-white via-white/95 to-white/80">
@@ -1522,7 +1525,7 @@
                     <div class="aspect-[3/4] overflow-hidden relative">
                         <img src="img/tenang.jpg" alt="Tenang Semua Beres"
                             class="w-full h-full object-cover transition-all duration-700 scale-100 group-hover:scale-110"
-                            loading="lazy" width="400" height="533">
+                            loading="lazy" width="400" height="533" decoding="async">
                         <div class="absolute inset-0 bg-gradient-to-b from-transparent to-[#2A6AA7]/20"></div>
                     </div>
                     <div
@@ -2182,8 +2185,8 @@
         </a>
     </div>
 
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Scripts at the bottom for better performance -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
 
     <script>
         let badanSwiper, pribadiSwiper;
