@@ -1271,9 +1271,12 @@
         </div>
 
         <div class="container mx-auto px-4 relative z-10">
-            <img src="img/Logo Ali putih Panjang.png" alt="Akses Legal Indonesia"
-                class="h-6 md:h-12 mb-12 md:mb-16 object-contain -mt-4" width="200" height="48">
-            <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <!-- Logo Header (Static at top) -->
+            <div class="mb-10 md:mb-16">
+                <img src="img/Logo Ali putih Panjang.png" alt="Akses Legal Indonesia"
+                    class="h-8 md:h-9 w-auto object-contain">
+            </div>
+            <div class="grid lg:grid-cols-2 gap-12 items-start lg:items-center">
                 <!-- Left Content -->
                 <div class="hero-text order-2 lg:order-1 text-center lg:text-left">
                     <div
@@ -1317,7 +1320,7 @@
                     <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                         <a href="https://wa.me/6282151519925?text=Halo%20Admin,%20Saya Dari Website,%20saya%20ingin%20tanya%20seputar%20SPT"
                             target="_blank"
-                            class="inline-flex items-center justify-center px-8 py-4 bg-[#25D366] hover:bg-[#1faa55] text-white rounded-full font-black text-lg transition-all duration-300 shadow-xl shadow-green-500/20 hover:-translate-y-1">
+                            class="inline-flex items-center justify-center px-6 py-3.5 md:px-8 md:py-4 bg-[#25D366] hover:bg-[#1faa55] text-white rounded-full font-black text-base md:text-lg transition-all duration-300 shadow-xl shadow-green-500/20 hover:-translate-y-1">
                             Konsultasi Sekarang <i class="fas fa-arrow-right ml-3"></i>
                         </a>
                         <button onclick="document.getElementById('harga').scrollIntoView({behavior: 'smooth'})"
@@ -1338,10 +1341,10 @@
                                 loading="eager" fetchpriority="high" width="800" height="600" decoding="sync">
                         </div>
 
-                        <!-- Floating Glass Cards (Repositioned to avoid overlap) -->
+                        <!-- Floating Glass Cards (Fine-tuned positions) -->
                         <!-- Card 1: SPT Tahunan -->
-                        <div class="absolute -top-12 -left-8 md:-top-16 md:-left-12 bg-white/80 backdrop-blur-xl rounded-xl shadow-xl p-2 md:p-3 w-28 md:w-40 float-rotate border border-white/40 z-30"
-                            style="animation-duration: 10s;">
+                        <div class="absolute -top-10 -left-6 md:-top-12 md:-left-10 bg-white/80 backdrop-blur-xl rounded-xl shadow-xl p-2 md:p-3 w-28 md:w-40 float-rotate border border-white/40 z-30"
+                            style="animation-duration: 12s;">
                             <div class="flex items-center gap-1.5 md:gap-2 mb-1">
                                 <div
                                     class="w-6 h-6 md:w-8 md:h-8 rounded-full gradient-brand flex items-center justify-center text-white font-bold text-[10px] md:text-xs shadow">
@@ -1361,7 +1364,7 @@
                         </div>
 
                         <!-- Card 2: SPT Bulanan -->
-                        <div class="absolute top-1/4 -right-10 md:top-1/3 md:-right-16 bg-white/80 backdrop-blur-xl rounded-xl shadow-xl p-2 md:p-3 w-28 md:w-40 float-diagonal border border-white/40 z-30"
+                        <div class="absolute top-1/3 -right-8 md:top-1/2 md:-right-12 bg-white/80 backdrop-blur-xl rounded-xl shadow-xl p-2 md:p-3 w-28 md:w-40 float-diagonal border border-white/40 z-30"
                             style="animation-delay: 1s;">
                             <div class="flex items-center gap-1.5 md:gap-2 mb-1">
                                 <div
@@ -1397,28 +1400,34 @@
 
                         <!-- Main Stats Card (New) -->
                         <div
-                            class="absolute -bottom-10 left-1/2 -translate-x-1/2 w-[95%] bg-white/95 backdrop-blur-2xl rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.3)] p-5 border border-white/50 z-20 flex justify-around items-center transform transition-all duration-500 hover:scale-[1.02] group/stats">
+                            class="absolute -bottom-10 left-1/2 -translate-x-1/2 w-[95%] bg-white/95 backdrop-blur-2xl rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.3)] p-4 md:p-5 border border-white/50 z-20 flex justify-around items-center transform transition-all duration-500 hover:scale-[1.02] group/stats">
                             <div class="text-center">
                                 <p
-                                    class="text-2xl font-black text-[#111d35] group-hover/stats:text-blue-600 transition-colors">
+                                    class="text-xl md:text-2xl font-black text-[#111d35] group-hover/stats:text-blue-600 transition-colors">
                                     500+</p>
-                                <p class="text-[10px] text-gray-500 font-extrabold uppercase tracking-widest">Klien Puas
+                                <p
+                                    class="text-[8px] md:text-[10px] text-gray-500 font-extrabold uppercase tracking-widest">
+                                    Klien Puas
                                 </p>
                             </div>
-                            <div class="w-px h-10 bg-gray-200"></div>
+                            <div class="w-px h-8 md:h-10 bg-gray-200"></div>
                             <div class="text-center">
                                 <p
-                                    class="text-2xl font-black text-[#111d35] group-hover/stats:text-blue-600 transition-colors">
+                                    class="text-xl md:text-2xl font-black text-[#111d35] group-hover/stats:text-blue-600 transition-colors">
                                     99%</p>
-                                <p class="text-[10px] text-gray-500 font-extrabold uppercase tracking-widest">Success
+                                <p
+                                    class="text-[8px] md:text-[10px] text-gray-500 font-extrabold uppercase tracking-widest">
+                                    Success
                                     Rate</p>
                             </div>
-                            <div class="w-px h-10 bg-gray-200"></div>
+                            <div class="w-px h-8 md:h-10 bg-gray-200"></div>
                             <div class="text-center">
                                 <p
-                                    class="text-2xl font-black text-[#111d35] group-hover/stats:text-blue-600 transition-colors">
+                                    class="text-xl md:text-2xl font-black text-[#111d35] group-hover/stats:text-blue-600 transition-colors">
                                     24h</p>
-                                <p class="text-[10px] text-gray-500 font-extrabold uppercase tracking-widest">Fast
+                                <p
+                                    class="text-[8px] md:text-[10px] text-gray-500 font-extrabold uppercase tracking-widest">
+                                    Fast
                                     Response</p>
                             </div>
                         </div>
