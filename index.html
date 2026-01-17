@@ -5,11 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layanan Pelaporan SPT - akseslegal.id | Cepat, Aman, Tanpa Ribet</title>
+    <link rel="icon" href="img/logo ALI.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="image" href="img/hero.jpg" fetchpriority="high">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        media="print" onload="this.media='all'">
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="preload" as="image" href="https://picsum.photos/seed/taxservice/600/400.jpg">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap');
 
@@ -1204,7 +1208,7 @@
 <body class="bg-gray-50">
 
     <!-- Hero Section -->
-    <section class="hero-bg text-white py-16 md:py-24 relative overflow-hidden">
+    <section class="hero-bg text-white pt-4 pb-16 md:pt-8 md:pb-24 relative overflow-hidden">
         <!-- Modern Background Elements -->
         <div class="absolute top-0 left-0 w-full h-full pointer-events-none">
             <div
@@ -1230,72 +1234,76 @@
         </div>
 
         <div class="container mx-auto px-4 relative z-10">
+            <img src="img/Logo Ali putih Panjang.png" alt="Akses Legal Indonesia"
+                class="h-6 md:h-12 mb-12 md:mb-16 object-contain -mt-4" width="200" height="48">
             <div class="grid lg:grid-cols-2 gap-12 items-center">
                 <!-- Left Content -->
                 <div class="hero-text order-2 lg:order-1 text-center lg:text-left">
                     <div
-                        class="inline-flex items-center bg-yellow-500/20 backdrop-blur-md border border-yellow-500/30 text-yellow-400 px-4 py-2 rounded-full mb-8 pulse-badge">
-                        <i class="fas fa-clock mr-2 text-sm"></i>
-                        <span class="text-sm font-bold uppercase tracking-wider">Deadline Lapor SPT Segera Tiba!</span>
+                        class="inline-flex items-center bg-[#F3B433] text-[#111d35] px-4 py-1.5 rounded-full mb-8 font-bold text-sm shadow-lg">
+                        <div class="w-2.5 h-2.5 bg-white rounded-full mr-2 animate-pulse"></div>
+                        <span class="uppercase tracking-wider">Deadline Lapor SPT Segera Tiba!</span>
                     </div>
 
-                    <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-[1.1]">
-                        Lapor SPT Jadi
-                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">Jauh
-                            Lebih Mudah</span>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-black mb-6 leading-[1.1] text-white">
+                        Lapor SPT Jadi <span class="text-[#F3B433]">Jauh Lebih Mudah</span>
                     </h1>
 
-                    <p class="text-lg md:text-xl text-blue-100 mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed">
+                    <p class="text-lg text-blue-100/80 mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed font-semibold">
                         Urusan perpajakan tidak harus memusingkan. Kami tangani laporan <span
-                            class="text-white font-bold underline decoration-yellow-500 decoration-2">SPT Pribadi &
-                            Badan</span> Anda secara profesional, aman, dan tepat waktu.
+                            class="text-white font-bold border-b-2 border-[#F3B433]">SPT Pribadi & Badan</span> Anda
+                        secara profesional, aman, dan tepat waktu.
                     </p>
+
+                    <!-- Trust Badges Row -->
+                    <div class="flex flex-wrap items-center justify-center lg:justify-start gap-3 mb-10">
+                        <div
+                            class="flex items-center bg-white/10 backdrop-blur-md px-3 py-1.5 rounded-full border border-white/10">
+                            <i class="fas fa-check-circle text-[#F3B433] mr-2 text-xs"></i>
+                            <span class="text-[10px] font-bold text-white uppercase tracking-wider">Terdaftar
+                                Resmi</span>
+                        </div>
+                        <div
+                            class="flex items-center bg-white/10 backdrop-blur-md px-3 py-1.5 rounded-full border border-white/10">
+                            <i class="fas fa-bolt text-[#F3B433] mr-2 text-xs"></i>
+                            <span class="text-[10px] font-bold text-white uppercase tracking-wider">Proses Cepat</span>
+                        </div>
+                        <div
+                            class="flex items-center bg-white/10 backdrop-blur-md px-3 py-1.5 rounded-full border border-white/10">
+                            <i class="fas fa-tag text-[#F3B433] mr-2 text-xs"></i>
+                            <span class="text-[10px] font-bold text-white uppercase tracking-wider">Harga
+                                Terjangkau</span>
+                        </div>
+                    </div>
 
                     <!-- CTAs -->
                     <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                         <a href="https://wa.me/6282151519925?text=Halo%20Admin,%20Saya Dari Website,%20saya%20ingin%20tanya%20seputar%20SPT"
                             target="_blank"
-                            class="btn-shimmer inline-flex items-center justify-center px-8 py-4 bg-[#25D366] hover:bg-[#128C7E] text-white rounded-2xl font-extrabold text-lg transition-all duration-300 shadow-xl shadow-green-500/30 hover:-translate-y-1">
-                            <i class="fab fa-whatsapp mr-3 text-2xl"></i>
-                            Konsultasi Gratis Sekarang
+                            class="inline-flex items-center justify-center px-8 py-4 bg-[#25D366] hover:bg-[#1faa55] text-white rounded-full font-black text-lg transition-all duration-300 shadow-xl shadow-green-500/20 hover:-translate-y-1">
+                            Konsultasi Sekarang <i class="fas fa-arrow-right ml-3"></i>
                         </a>
                         <button onclick="document.getElementById('harga').scrollIntoView({behavior: 'smooth'})"
-                            class="inline-flex items-center justify-center px-8 py-4 border-2 border-white/20 hover:border-white text-white rounded-2xl font-bold transition-all duration-300 backdrop-blur-sm hover:bg-white/10">
+                            class="inline-flex items-center justify-center px-8 py-4 border-2 border-white/30 hover:border-white text-white rounded-full font-bold transition-all duration-300 backdrop-blur-sm hover:bg-white/10">
                             Lihat Layanan
                         </button>
-                    </div>
-
-                    <div
-                        class="mt-12 flex justify-center lg:justify-start space-x-10 hero-stats border-t border-white/10 pt-8">
-                        <div>
-                            <div class="text-3xl font-black text-white">500+</div>
-                            <div class="text-xs text-blue-200 uppercase tracking-widest font-bold">Klien Puas</div>
-                        </div>
-                        <div>
-                            <div class="text-3xl font-black text-white">99%</div>
-                            <div class="text-xs text-blue-200 uppercase tracking-widest font-bold">Success Rate</div>
-                        </div>
-                        <div>
-                            <div class="text-3xl font-black text-white">24h</div>
-                            <div class="text-xs text-blue-200 uppercase tracking-widest font-bold">Fast Response</div>
-                        </div>
                     </div>
                 </div>
 
                 <!-- Right Visual (Responsive) -->
                 <div class="relative order-1 lg:order-2">
-                    <div class="hero-image-container relative z-10 group">
+                    <div class="hero-image-container relative z-10 group lg:max-w-xl xl:max-w-2xl mx-auto">
                         <!-- Main Image with Gradient Border Effect -->
                         <div
                             class="relative p-1 bg-gradient-to-tr from-white/20 via-white/50 to-white/20 rounded-3xl overflow-hidden shadow-2xl">
                             <img src="img/hero.jpg" alt="Modern Tax Service Visualization"
                                 class="w-full h-auto object-cover rounded-[1.4rem] transform transition duration-700 group-hover:scale-105"
-                                loading="eager">
+                                loading="eager" fetchpriority="high" width="800" height="600">
                         </div>
 
-                        <!-- Floating Glass Cards from index3.html -->
+                        <!-- Floating Glass Cards (Repositioned to avoid overlap) -->
                         <!-- Card 1: SPT Tahunan -->
-                        <div class="absolute -top-2 -left-2 md:-top-4 md:-left-4 bg-white/80 backdrop-blur-xl rounded-xl shadow-xl p-2 md:p-3 w-28 md:w-40 float-rotate border border-white/40"
+                        <div class="absolute -top-12 -left-8 md:-top-16 md:-left-12 bg-white/80 backdrop-blur-xl rounded-xl shadow-xl p-2 md:p-3 w-28 md:w-40 float-rotate border border-white/40 z-30"
                             style="animation-duration: 10s;">
                             <div class="flex items-center gap-1.5 md:gap-2 mb-1">
                                 <div
@@ -1316,7 +1324,7 @@
                         </div>
 
                         <!-- Card 2: SPT Bulanan -->
-                        <div class="absolute -bottom-2 -right-2 md:-bottom-4 md:-right-4 bg-white/80 backdrop-blur-xl rounded-xl shadow-xl p-2 md:p-3 w-28 md:w-40 float-diagonal border border-white/40"
+                        <div class="absolute top-1/4 -right-10 md:top-1/3 md:-right-16 bg-white/80 backdrop-blur-xl rounded-xl shadow-xl p-2 md:p-3 w-28 md:w-40 float-diagonal border border-white/40 z-30"
                             style="animation-delay: 1s;">
                             <div class="flex items-center gap-1.5 md:gap-2 mb-1">
                                 <div
@@ -1336,40 +1344,59 @@
                             </div>
                         </div>
 
-                        <!-- Trust Badge -->
-                        <div class="absolute -bottom-10 left-0 transform -translate-x-1/2 z-30 hidden md:block">
-                            <div class="bg-white/90 backdrop-blur-md rounded-2xl shadow-2xl p-4 border border-white/50 animate-bounce"
-                                style="animation-duration: 4s;">
-                                <div class="flex items-center gap-3">
-                                    <div
-                                        class="w-10 h-10 rounded-full gradient-brand flex items-center justify-center text-white shadow-lg">
-                                        <i class="fas fa-check-circle"></i>
-                                    </div>
-                                    <div class="text-left">
-                                        <p class="text-xs font-black text-gray-900 leading-tight">Terpercaya</p>
-                                        <p class="text-[10px] text-gray-600 font-bold">500+ Klien Aktif</p>
-                                    </div>
-                                </div>
+                        <!-- New Extra Floating Icons for Visual Interest -->
+                        <div class="absolute -top-10 right-10 float-animation opacity-20 pointer-events-none hidden md:block"
+                            style="animation-delay: -3s;">
+                            <i class="fas fa-calculator text-4xl text-white"></i>
+                        </div>
+                        <div class="absolute bottom-20 -left-16 float-diagonal opacity-20 pointer-events-none hidden md:block"
+                            style="animation-duration: 8s;">
+                            <i class="fas fa-coins text-4xl text-yellow-400"></i>
+                        </div>
+                        <div class="absolute top-1/2 -right-20 float-rotate opacity-20 pointer-events-none hidden md:block"
+                            style="animation-delay: 2s;">
+                            <i class="fas fa-file-contract text-3xl text-white"></i>
+                        </div>
+
+                        <!-- Main Stats Card (New) -->
+                        <div
+                            class="absolute -bottom-10 left-1/2 -translate-x-1/2 w-[95%] bg-white/95 backdrop-blur-2xl rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.3)] p-5 border border-white/50 z-20 flex justify-around items-center transform transition-all duration-500 hover:scale-[1.02] group/stats">
+                            <div class="text-center">
+                                <p
+                                    class="text-2xl font-black text-[#111d35] group-hover/stats:text-blue-600 transition-colors">
+                                    500+</p>
+                                <p class="text-[10px] text-gray-500 font-extrabold uppercase tracking-widest">Klien Puas
+                                </p>
+                            </div>
+                            <div class="w-px h-10 bg-gray-200"></div>
+                            <div class="text-center">
+                                <p
+                                    class="text-2xl font-black text-[#111d35] group-hover/stats:text-blue-600 transition-colors">
+                                    99%</p>
+                                <p class="text-[10px] text-gray-500 font-extrabold uppercase tracking-widest">Success
+                                    Rate</p>
+                            </div>
+                            <div class="w-px h-10 bg-gray-200"></div>
+                            <div class="text-center">
+                                <p
+                                    class="text-2xl font-black text-[#111d35] group-hover/stats:text-blue-600 transition-colors">
+                                    24h</p>
+                                <p class="text-[10px] text-gray-500 font-extrabold uppercase tracking-widest">Fast
+                                    Response</p>
                             </div>
                         </div>
-
-                        <!-- Accent Elements -->
-                        <div class="absolute top-1/2 -right-12 w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center text-white text-2xl shadow-lg float-animation scale-pulse"
-                            style="animation-delay: -2s;">
-                            <i class="fas fa-shield-alt"></i>
-                        </div>
                     </div>
 
-                    <!-- Decorative Background Shapes for Visual -->
+                    <!-- Decorative Background Shapes for Visual (Enhanced) -->
                     <div
-                        class="absolute -top-10 -right-10 w-40 h-40 bg-yellow-400 opacity-20 filter blur-3xl rounded-full">
+                        class="absolute -top-20 -right-20 w-64 h-64 bg-yellow-400 opacity-20 filter blur-[80px] rounded-full animate-blob">
                     </div>
                     <div
-                        class="absolute -bottom-10 -left-10 w-40 h-40 bg-blue-400 opacity-20 filter blur-3xl rounded-full">
+                        class="absolute -bottom-20 -left-20 w-80 h-80 bg-blue-500 opacity-20 filter blur-[100px] rounded-full animate-blob animation-delay-4000">
                     </div>
-                </div>
-            </div>
-        </div>
+                </div> <!-- End Right Visual -->
+            </div> <!-- End Grid -->
+        </div> <!-- End Container -->
 
         <!-- Wave Divider -->
         <div class="absolute bottom-0 left-0 right-0 leading-[0]">
@@ -1452,7 +1479,8 @@
                     class="group relative bg-gray-50 rounded-[2.5rem] overflow-hidden border border-gray-100 transition-all duration-500 hover:shadow-2xl hover:-translate-y-2">
                     <div class="aspect-[3/4] overflow-hidden">
                         <img src="img/pusing.jpg" alt="Pusing Hitung Pajak"
-                            class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100">
+                            class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
+                            loading="lazy" width="400" height="533">
                     </div>
                     <div
                         class="p-8 pb-10 text-center relative z-10 bg-gradient-to-t from-white via-white/95 to-white/80">
@@ -1472,7 +1500,8 @@
                     class="group relative bg-gray-50 rounded-[2.5rem] overflow-hidden border border-gray-100 transition-all duration-500 hover:shadow-2xl hover:-translate-y-2">
                     <div class="aspect-[3/4] overflow-hidden">
                         <img src="img/kaget.jpg" alt="Kaget Aturan Pajak"
-                            class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100">
+                            class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
+                            loading="lazy" width="400" height="533">
                     </div>
                     <div
                         class="p-8 pb-10 text-center relative z-10 bg-gradient-to-t from-white via-white/95 to-white/80">
@@ -1492,7 +1521,8 @@
                     class="group relative bg-[#2A6AA7]/5 rounded-[2.5rem] overflow-hidden border-2 border-[#2A6AA7]/20 transition-all duration-500 hover:shadow-2xl hover:-translate-y-2">
                     <div class="aspect-[3/4] overflow-hidden relative">
                         <img src="img/tenang.jpg" alt="Tenang Semua Beres"
-                            class="w-full h-full object-cover transition-all duration-700 scale-100 group-hover:scale-110">
+                            class="w-full h-full object-cover transition-all duration-700 scale-100 group-hover:scale-110"
+                            loading="lazy" width="400" height="533">
                         <div class="absolute inset-0 bg-gradient-to-b from-transparent to-[#2A6AA7]/20"></div>
                     </div>
                     <div
@@ -1956,7 +1986,8 @@
                                 <div class="flex items-center mt-auto">
                                     <div class="relative">
                                         <img src="testimoni/1.png" alt="Yoel Yusvin"
-                                            class="w-10 h-10 rounded-full object-cover">
+                                            class="w-10 h-10 rounded-full object-cover" loading="lazy" width="40"
+                                            height="40">
                                         <div
                                             class="absolute -bottom-1 -right-1 bg-blue-500 text-white p-1 rounded-full text-[8px] border border-white">
                                             <i class="fas fa-building"></i>
@@ -1992,7 +2023,8 @@
                                 <div class="flex items-center mt-auto">
                                     <div class="relative">
                                         <img src="testimoni/2.png" alt="Adhy Basto"
-                                            class="w-10 h-10 rounded-full object-cover">
+                                            class="w-10 h-10 rounded-full object-cover" loading="lazy" width="40"
+                                            height="40">
                                         <div
                                             class="absolute -bottom-1 -right-1 bg-blue-500 text-white p-1 rounded-full text-[8px] border border-white">
                                             <i class="fas fa-briefcase"></i>
@@ -2026,7 +2058,8 @@
                                 <div class="flex items-center mt-auto">
                                     <div class="relative">
                                         <img src="testimoni/3.png" alt="Panji"
-                                            class="w-10 h-10 rounded-full object-cover">
+                                            class="w-10 h-10 rounded-full object-cover" loading="lazy" width="40"
+                                            height="40">
                                         <div
                                             class="absolute -bottom-1 -right-1 bg-blue-500 text-white p-1 rounded-full text-[8px] border border-white">
                                             <i class="fas fa-utensils"></i>
@@ -2061,7 +2094,8 @@
                                 <div class="flex items-center mt-auto">
                                     <div class="relative">
                                         <img src="testimoni/4.png" alt="iwan Coy"
-                                            class="w-10 h-10 rounded-full object-cover">
+                                            class="w-10 h-10 rounded-full object-cover" loading="lazy" width="40"
+                                            height="40">
                                         <div
                                             class="absolute -bottom-1 -right-1 bg-blue-500 text-white p-1 rounded-full text-[8px] border border-white">
                                             <i class="fas fa-gavel"></i>
@@ -2122,10 +2156,12 @@
                         <a href="https://play.google.com/store/apps/details?id=com.wasdlabs.ali&hl=in" target="_blank">
 
                             <img src="img/google play.png"
-                                class="h-auto w-40 rounded-xl bg-white/10 border border-white/20 grid place-items-center">
+                                class="h-auto w-40 rounded-xl bg-white/10 border border-white/20 grid place-items-center"
+                                loading="lazy" width="160" height="48">
                             </img>
                             <img src="img/app store.png"
-                                class="h-auto w-40 rounded-xl bg-white/10 border border-white/20 grid place-items-center">
+                                class="h-auto w-40 rounded-xl bg-white/10 border border-white/20 grid place-items-center"
+                                loading="lazy" width="160" height="48">
                             </img>
                         </a>
                     </div>
